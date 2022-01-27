@@ -43,7 +43,7 @@ const User = ({ user, selectUser, user1, chat }: UserProps) => {
       }
     })
     return () => unsub()
-  }, [user1, user2])
+  }, [])
   console.log(data, 'data')
   return (
     <>

@@ -3,7 +3,7 @@ import media from 'styled-media-query'
 
 export const Main = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;

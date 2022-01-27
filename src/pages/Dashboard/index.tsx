@@ -78,7 +78,7 @@ const Dashboard = () => {
       setUsers(usersArray)
     })
     return () => unsub()
-  }, [user1])
+  }, [])
   const selectUser = async (user: UserProps) => {
     setChat(user)
     const user2 = user.id
